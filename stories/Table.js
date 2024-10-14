@@ -1,11 +1,15 @@
-import { createHeader } from './Header';
 import './table.css';
 
-export const createTable = () => {
+export const createTable = ({
+  size
+}) => {
+  const sizeClass = size === 'small' ? 'table-sm' : '';
+
   const section = document.createElement('section');
   section.className = 'storybook-table';
+
   const table = `
-    <table class="table">
+    <table class="table ${sizeClass}">
       <thead>
         <tr>
           <th scope="col">#</th>

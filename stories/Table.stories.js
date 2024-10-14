@@ -2,10 +2,20 @@ import { createTable } from './Table';
 
 export default {
   title: 'Example/Table',
-  render: () => createTable(),
   parameters: {
     layout: 'fullscreen',
   },
+  argTypes: {
+    size: {
+      control: {
+        type: 'select'
+      },
+      options: ['small', 'default'],
+    },
+  },
+  args: {
+    size: 'default',
+  }
 };
 
-export const Table = {};
+export const Table = (args) => createTable(args);
