@@ -1,15 +1,17 @@
 import './table.css';
 
 export const createTable = ({
-  size
+  size,
+  tableColor
 }) => {
   const sizeClass = size === 'small' ? 'table-sm' : '';
+  const tableColorClass = tableColor ? `table-${tableColor}` : '';
 
   const section = document.createElement('section');
   section.className = 'storybook-table';
 
   const table = `
-    <table class="table ${sizeClass}">
+    <table class="table ${sizeClass} ${tableColorClass}">
       <thead>
         <tr>
           <th scope="col">#</th>

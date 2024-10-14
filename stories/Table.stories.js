@@ -10,11 +10,18 @@ export default {
       control: {
         type: 'select'
       },
-      options: ['small', 'default'],
+      options: ['default', 'small'],
+    },
+    tableColor: {
+      control: {
+        type: 'select'
+      },
+      options: ['default', 'primary', 'secondary', 'success', 'danger', 'warning', 'info', 'light', 'dark'],
     },
   },
   args: {
     size: 'default',
+    tableColor: 'default'
   }
 };
 
