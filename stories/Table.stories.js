@@ -1,4 +1,5 @@
 import { createTable } from './Table';
+import { sizes, tableColors } from '../stories/Table.const';
 
 export default {
   title: 'Example/Table',
@@ -10,13 +11,13 @@ export default {
       control: {
         type: 'select'
       },
-      options: ['default', 'small'],
+      options: sizes,
     },
     tableColor: {
       control: {
         type: 'select'
       },
-      options: ['default', 'primary', 'secondary', 'success', 'danger', 'warning', 'info', 'light', 'dark'],
+      options: tableColors,
     },
   },
   args: {

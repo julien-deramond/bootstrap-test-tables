@@ -1,7 +1,5 @@
 const { test, expect } = require('@playwright/test');
-
-const sizes = ['default', 'small'];
-const tableColors = ['default', 'primary', 'secondary', 'success', 'danger', 'warning', 'info', 'light', 'dark'];
+import { sizes, tableColors } from '../stories/Table.const';
 
 test.describe('Table Component', () => {
   for (const size of sizes) {
