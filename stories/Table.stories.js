@@ -1,5 +1,5 @@
 import { createTable } from './Table';
-import { sizes, tableColors } from '../stories/Table.const';
+import { sizes, tableColors, trTableColors } from '../stories/Table.const';
 
 export default {
   title: 'Example/Table',
@@ -19,10 +19,17 @@ export default {
       },
       options: tableColors,
     },
+    trTableColor: {
+      control: {
+        type: 'select'
+      },
+      options: trTableColors,
+    },
   },
   args: {
     size: 'default',
-    tableColor: 'default'
+    tableColor: 'default',
+    trTableColor: 'default',
   }
 };
 
