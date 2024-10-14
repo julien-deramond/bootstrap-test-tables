@@ -1,0 +1,26 @@
+{
+  "name": "bootstrap-test-tables",
+  "private": "true",
+  "version": "0.0.0",
+  "description": "Repository to double-check non-regressions of Bootstrap tables",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@chromatic-com/storybook": "^1.9.0",
+    "@storybook/addon-essentials": "^8.3.5",
+    "@storybook/addon-interactions": "^8.3.5",
+    "@storybook/addon-links": "^8.3.5",
+    "@storybook/blocks": "^8.3.5",
+    "@storybook/html": "^8.3.5",
+    "@storybook/html-vite": "^8.3.5",
+    "@storybook/test": "^8.3.5",
+    "storybook": "^8.3.5"
+  }
+}
