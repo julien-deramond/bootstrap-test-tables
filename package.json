@@ -15,14 +15,14 @@
   "license": "ISC",
   "devDependencies": {
     "@playwright/test": "^1.50.1",
-    "@storybook/addon-essentials": "^8.5.6",
-    "@storybook/addon-interactions": "^8.5.6",
-    "@storybook/addon-links": "^8.5.6",
-    "@storybook/blocks": "^8.5.6",
-    "@storybook/html": "^8.5.6",
-    "@storybook/html-vite": "^8.5.6",
-    "@storybook/test": "^8.5.6",
-    "@storybook/test-runner": "^0.21.1",
-    "storybook": "^8.5.6"
+    "@storybook/addon-essentials": "^8.5.8",
+    "@storybook/addon-interactions": "^8.5.8",
+    "@storybook/addon-links": "^8.5.8",
+    "@storybook/blocks": "^8.5.8",
+    "@storybook/html": "^8.5.8",
+    "@storybook/html-vite": "^8.5.8",
+    "@storybook/test": "^8.5.8",
+    "@storybook/test-runner": "^0.21.3",
+    "storybook": "^8.5.8"
   }
 }
