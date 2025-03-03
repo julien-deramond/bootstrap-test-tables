@@ -19,7 +19,7 @@
     "@storybook/addon-interactions": "^8.5.8",
     "@storybook/addon-links": "^8.5.8",
     "@storybook/blocks": "^8.5.8",
-    "@storybook/html": "^8.5.8",
+    "@storybook/html": "^8.6.3",
     "@storybook/html-vite": "^8.5.8",
     "@storybook/test": "^8.5.8",
     "@storybook/test-runner": "^0.21.3",
