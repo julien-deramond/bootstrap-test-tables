@@ -23,6 +23,6 @@
     "@storybook/html-vite": "^8.5.8",
     "@storybook/test": "^8.5.8",
     "@storybook/test-runner": "^0.21.3",
-    "storybook": "^8.5.8"
+    "storybook": "^8.6.3"
   }
 }
