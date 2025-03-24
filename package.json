@@ -17,7 +17,7 @@
     "@playwright/test": "^1.51.0",
     "@storybook/addon-essentials": "^8.6.7",
     "@storybook/addon-interactions": "^8.6.7",
-    "@storybook/addon-links": "^8.6.7",
+    "@storybook/addon-links": "^8.6.8",
     "@storybook/blocks": "^8.6.7",
     "@storybook/html": "^8.6.7",
     "@storybook/html-vite": "^8.6.7",
