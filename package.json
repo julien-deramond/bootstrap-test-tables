@@ -20,7 +20,7 @@
     "@storybook/addon-links": "^8.6.9",
     "@storybook/blocks": "^8.6.9",
     "@storybook/html": "^8.6.9",
-    "@storybook/html-vite": "^8.6.9",
+    "@storybook/html-vite": "^8.6.11",
     "@storybook/test": "^8.6.9",
     "@storybook/test-runner": "^0.22.0",
     "storybook": "^8.6.9"
