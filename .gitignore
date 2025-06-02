@@ -3,3 +3,7 @@
 
 # Playwright
 /test-results/
+
+# Storybook
+/storybook-static/
+
