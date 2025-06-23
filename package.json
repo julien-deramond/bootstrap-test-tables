@@ -14,7 +14,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@playwright/test": "^1.53.0",
+    "@playwright/test": "^1.53.1",
     "@storybook/addon-docs": "^9.0.12",
     "@storybook/addon-links": "^9.0.12",
     "@storybook/html-vite": "^9.0.12",
