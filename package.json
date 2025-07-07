@@ -19,6 +19,6 @@
     "@storybook/addon-links": "^9.0.14",
     "@storybook/html-vite": "^9.0.14",
     "@storybook/test-runner": "^0.23.0",
-    "storybook": "^9.0.14"
+    "storybook": "^9.0.15"
   }
 }
