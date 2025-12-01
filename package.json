@@ -17,7 +17,7 @@
     "@playwright/test": "^1.56.1",
     "@storybook/addon-docs": "^10.0.8",
     "@storybook/addon-links": "^10.0.8",
-    "@storybook/html-vite": "^10.0.8",
+    "@storybook/html-vite": "^10.1.2",
     "@storybook/test-runner": "^0.24.1",
     "storybook": "^10.0.8"
   }
