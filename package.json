@@ -16,7 +16,7 @@
   "devDependencies": {
     "@playwright/test": "^1.58.0",
     "@storybook/addon-docs": "^10.2.0",
-    "@storybook/addon-links": "^10.2.0",
+    "@storybook/addon-links": "^10.2.3",
     "@storybook/html-vite": "^10.2.0",
     "@storybook/test-runner": "^0.24.2",
     "storybook": "^10.2.0"
